@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace ClaimsDesk.API.Models
 {
@@ -23,11 +23,17 @@ namespace ClaimsDesk.API.Models
         [MaxLength(10)]
         public string CurrencyCode { get; set; } = "KES"; // Default currency for thresholds and payouts
 
+        public string Country { get; set; } = string.Empty;
+        public string Tin { get; set; } = string.Empty;
+        public string Address { get; set; } = string.Empty;
+        public string AccountType { get; set; } = "demo"; // demo, live
+
         public bool IsActive { get; set; } = true;
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation properties for tenant isolation
-        public ICollection<User> Users { get; set; } = new List<User>();
+        public ICollection<Branch> Branches { get; set; } = new List<Branch>();
+        public ICollection<Member> Members { get; set; } = new List<Member>();
     }
 }

@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MxPDc/Lf2SI=",
+  "dgSpecHash": "JFSwPzHEfJA=",
   "success": true,
   "projectFilePath": "C:\\verceed-projects\\client-projects\\claims-desk\\claims-desk-dotnet\\ClaimsDesk.API\\ClaimsDesk.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\asp.versioning.abstractions\\10.2.1\\asp.versioning.abstractions.10.2.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\asp.versioning.http\\10.2.1\\asp.versioning.http.10.2.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\asp.versioning.mvc\\10.2.1\\asp.versioning.mvc.10.2.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\10.2.1\\asp.versioning.mvc.apiexplorer.10.2.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.12\\microsoft.aspnetcore.authentication.jwtbearer.10.0.12.nupkg.sha512",

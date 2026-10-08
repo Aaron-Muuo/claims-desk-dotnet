@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClaimsDesk.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e1cc87ce91c50363d44b6132452bbf70c778386")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClaimsDesk.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClaimsDesk.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
